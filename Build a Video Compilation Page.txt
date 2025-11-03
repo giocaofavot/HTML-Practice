@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Shakira Music Videos</title>
+</head>
+<body>
+  <main>
+    <h1>Shakira: Iconic Music Videos</h1>
+    <p>Explore some of Shakira's most famous and energetic music videos that showcase her unique blend of pop, Latin, and world rhythms.</p>
+
+    <section>
+      <h2>Hips Don't Lie</h2>
+      <p>Featuring Wyclef Jean, this global hit became one of the best-selling singles of all time.</p>
+      <iframe 
+        src="https://www.youtube.com/embed/DUT5rEU6pqM" 
+        title="Shakira - Hips Don't Lie ft. Wyclef Jean (Official Video)" 
+        width="560" 
+        height="315">
+      </iframe>
+    </section>
+
+    <section>
+      <h2>Waka Waka (This Time for Africa)</h2>
+      <p>The official 2010 FIFA World Cup anthem that brought energy and unity to fans worldwide.</p>
+      <iframe 
+        src="https://www.youtube.com/embed/pRpeEdMmmQ0" 
+        title="Shakira - Waka Waka (This Time for Africa) (The Official 2010 FIFA World Cup Song)" 
+        width="560" 
+        height="315">
+      </iframe>
+    </section>
+
+    <section>
+      <h2>Whenever, Wherever</h2>
+      <p>Shakira's breakthrough international hit that introduced her signature sound and belly-dancing style.</p>
+      <iframe 
+        src="https://www.youtube.com/embed/4eM8EHCa8ew" 
+        title="Shakira - Whenever, Wherever (Official Video)" 
+        width="560" 
+        height="315">
+      </iframe>
+    </section>
+  </main>
+</body>
+</html>

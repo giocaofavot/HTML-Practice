@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Pancakes</title>
+</head>
+<body>
+  <h1>Simple Pancakes</h1>
+  <p>Fluffy and easy pancakes ready in under 20 minutes!</p>
+
+  <h2>Ingredients</h2>
+  <ul>
+    <li>1 cup flour</li>
+    <li>1 tablespoon sugar</li>
+    <li>2 teaspoons baking powder</li>
+    <li>1 cup milk</li>
+  </ul>
+
+  <h2>Instructions</h2>
+  <ol>
+    <li>Mix dry ingredients in a bowl.</li>
+    <li>Add milk and stir until just combined.</li>
+    <li>Heat a non-stick pan over medium heat.</li>
+    <li>Cook each pancake for 2–3 minutes per side.</li>
+  </ol>
+
+  <img src="https://cdn.freecodecamp.org/curriculum/labs/recipe.jpg" alt="Stack of golden pancakes with syrup">
+</body>
+</html>
