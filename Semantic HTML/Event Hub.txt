@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Event Hub</title>
+</head>
+
+<body>
+<header> <h1>Event Hub</h1>
+<nav>
+    <ul>
+        <li><a href="#upcoming-events"> Upcoming Events</a></li>
+        <li><a href="#past-events">Past Events</a></li>
+    </ul>
+        </nav>
+        </header>
+        <main>
+            <section id="upcoming-events">
+                <h2>Upcoming Events</h2>
+                <article> 
+                    <h3>AI in Everyday Life</h3>
+                    <p>Discover how artificial intelligence is transforming healthcare, education, and daily routines—and what it means for our future.</p>
+                    </article>
+                     <article> 
+                    <h3>The Evolution of Computers</h3>
+                    <p>From room-sized machines to pocket supercomputers: explore the fascinating journey of computing through the decades.</p>
+                    </article>
+                </section>
+            <section id="past-events">
+                <h2>Past Events</h2>
+                <article> 
+                    <h3>Mastering MS-DOS</h3>
+                    <p>We explored the foundations of command-line computing with hands-on exercises in MS-DOS, the system that powered early PCs.</p>
+                    <img src="https://cdn.freecodecamp.org/curriculum/labs/past-event1.jpg" alt="Community coding workshop event">
+                     </article>
+             <article> 
+                    <h3>Emerging Tech Showcase</h3>
+             <p>Our community gathered to demo and discuss breakthroughs in AR, quantum computing, and sustainable tech innovations</p>
+             <img src="https://cdn.freecodecamp.org/curriculum/labs/past-event2.jpg" alt="Attendees at a past freeCodeCamp community event">
+                     </article>
+                </section>
+</body>
+
+</html>
