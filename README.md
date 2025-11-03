@@ -10,3 +10,8 @@ Projects included:
 - Build a video display using iframe
 - Build an HTML Audio and Video Player
 - Build a Video Compilation Page
+# Semantic-HTML
+
+Projects included:
+- Cat Blog Page
+- Event Hub
