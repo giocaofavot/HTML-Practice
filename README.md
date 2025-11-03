@@ -1,4 +1,4 @@
-# HTML-Practice
+# Basic HTML
 Exercises from freeCodeCamp HTML section
 
 Projects included:
