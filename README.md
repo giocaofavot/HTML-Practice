@@ -2,6 +2,7 @@
 Exercises from freeCodeCamp HTML section
 
 Projects included:
+- Build a curriculum outline
 - Cat Photo App
-- Registration Form
-- Portfolio Page
+- Build a heart icon
+- Build a video display using iframe
