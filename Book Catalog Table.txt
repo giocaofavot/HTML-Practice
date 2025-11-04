@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Catalog</title>
+</head>
+
+<body>
+<title> Book Catalog Table </title>
+<table> 
+  <thead>
+<tr>
+  <th>Title</th>
+  <th>Author</th>
+  <th>Genre</th>
+  <th>Publication Year</th>
+</tr>
+  </thead>
+  <tbody>
+    <tr>
+  <td>Robinson Crusoe</td>
+  <td>Daniel Defoe</td>
+  <td>Novel</td>
+  <td>1719 Year</td>
+    </tr>  <tr>
+  <td>Treasure Island</td>
+  <td>Robert Louis Stevenson</td>
+  <td>Novel</td>
+  <td>1883</td>
+    </tr> 
+     <tr>
+  <td>1984</td>
+  <td>George Orwell</td>
+  <td>Dystopian novel</td>
+  <td>1949</td>
+    </tr> 
+     <tr>
+  <td>Lord of the Flies</td>
+  <td>William Golding</td>
+  <td>Novel</td>
+   <td>1954</td>
+    </tr> 
+     <tr>
+  <td>The Canterbury Tales</td>
+  <td>Geoffrey Chaucer</td>
+  <td>Poetry</td>
+  <td>1392</td>
+    </tr> 
+  </tbody>
+  <tfoot>
+    <tr>
+      <td colspan="4">Total Books: 5</td>
+    </tr>
+  </tfoot>
+</table>
+</body>
+</html>

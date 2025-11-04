@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <header>
+      <h1 id="title">Survey Form</h1>
+      <p id="description">Thank you for helping us improve our coffee experience!</p>
+    </header>
+    <main>
+      <form id="survey-form">
+        <fieldset>
+          <legend>Personal Information</legend>
+          <label id="name-label" for="name">Name:</label>
+          <input
+            id="name"
+            name="name"
+            type="text"
+            placeholder="Write your name"
+            required
+          />
+
+          <label id="email-label" for="email">Email:</label>
+          <input
+            id="email"
+            name="email"
+            type="email"
+            placeholder="Write your email address"
+            required
+          />
+
+          <label id="number-label" for="age">Age:</label>
+          <input
+            id="age"
+            name="age"
+            type="number"
+            placeholder="Write your age"
+            min="3"
+            max="100"
+            required
+          />
+        </fieldset>
+
+        <fieldset>
+          <legend>Do you like coffee?</legend>
+          <label>
+            <input type="radio" name="recommend" value="definitely" /> Definitely
+          </label>
+          <label>
+            <input type="radio" name="recommend" value="maybe" /> Maybe
+          </label>
+          <label>
+            <input type="radio" name="recommend" value="not-sure" /> Not sure
+          </label>
+        </fieldset>
+
+        <fieldset>
+          <legend>What do you think of our coffee?</legend>
+          <select name="rating" id="dropdown">
+            <option value="poor">Poor</option>
+            <option value="satisfactory">Satisfactory</option>
+            <option value="good">Good</option>
+            <option value="very-good">Very Good</option>
+            <option value="excellent">Excellent</option>
+          </select>
+        </fieldset>
+
+        <fieldset>
+          <legend>Why would you recommend us?</legend>
+          <label>
+            <input type="checkbox" name="reasons" value="price" /> Price
+          </label>
+          <label>
+            <input type="checkbox" name="reasons" value="flavor" /> Flavor
+          </label>
+          <label>
+            <input type="checkbox" name="reasons" value="quality" /> Quality
+          </label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Other comments?</legend>
+          <textarea
+            id="comments"
+            name="comments"
+            placeholder="Enter your comments here..."
+            rows="5"
+            cols="40"
+          ></textarea>
+        </fieldset>
+
+        <button id="submit" type="submit">Submit</button>
+      </form>
+    </main>
+  </body>
+</html>
