@@ -15,3 +15,8 @@ Projects included:
 Projects included:
 - Cat Blog Page
 - Event Hub
+# Forms and Tables
+- Hotel Feedback Form
+- Survey Form
+- Final Exams Table
+- Book Catalog Table
