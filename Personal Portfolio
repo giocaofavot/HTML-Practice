@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My personal Portfolio</title>
+</head>
+<body>
+  <header>
+    <h1>Gio Batta Cao Favot</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about" class="about-section">
+      <header>
+        <h2>Sobre mí / About Me</h2>
+      </header>
+      <figure class="about-photo" aria-label="Foto de perfil de Gio">
+        <a href="https://postimg.cc/qhHrtWLW" target="_blank">
+          <img src="https://i.postimg.cc/hjftYB74/IMG-20250723-111605-808-2.jpg" alt="Gio al aire libre con un abrigo verde, con árboles y montañas de fondo en un día nublado" width="200" height="200" loading="lazy">
+        </a>
+        <figcaption>Gio — English teacher & aspiring full-stack developer</figcaption>
+      </figure>
+      <div class="about-text">
+        <article class="about-es">
+          <h3>Sobre mí</h3>
+          <p>
+            ¡Hola! Soy <strong>Gio</strong>, profesor de inglés, técnico informático y estudiante de Ingeniería en Informática en la
+            Universidad de Buenos Aires. Tengo una Licenciatura en Educación con orientación en Lengua Inglesa y una
+            Especialización en Educación Sexual Integral (ESI).
+          </p>
+          <p>
+            Me apasionan la tecnología, el aprendizaje y la posibilidad de unir la educación con el desarrollo de software.
+            Mi objetivo es crecer como desarrollador full-stack y trabajar de forma remota en proyectos con impacto internacional.
+          </p>
+        </article>
+
+        <article class="about-en" lang="en">
+          <h3>About Me</h3>
+          <p>
+            Hi! I'm <strong>Gio</strong> — an English teacher, IT technician, and Computer Engineering student at the University
+            of Buenos Aires. I hold a Bachelor's degree in Education focused on English Language and a postgraduate specialization
+            in Comprehensive Sex Education (ESI).
+          </p>
+          <p>
+            I'm passionate about technology, learning, and connecting education with software development. My goal is to grow as a
+            full-stack developer and work remotely on meaningful, international projects.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Project</th>
+            <th>Description</th>
+            <th>Link</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Personal Portfolio</td>
+            <td>My first complete HTML project — a personal website built to introduce myself and showcase my progress as a developer.</td>
+            <td><a href="https://github.com/TU-USUARIO/TU-REPO" target="_blank">View on GitHub</a></td>
+          </tr>
+          <tr>
+            <td>Cat Photo App</td>
+            <td>Basic HTML project focused on structure, semantic elements, and accessibility.</td>
+            <td><a href="https://github.com/giocaofavot/HTML-Practice/blob/Basic-HTML/Cat%20photo%20app%20part%202.txt" target="_blank">CatPhotoApp</a></td>
+          </tr>
+          <tr>
+            <td>Cafe Menu</td>
+            <td>CSS practice project using color, typography, and simple layout techniques.</td>
+            <td><a href="https://github.com/TU-USUARIO/NOMBRE-DEL-REPO" target="_blank">View on GitHub</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input id="name" type="text" required>
+        <label for="email">Email:</label>
+        <input id="email" type="email" required>
+        <label for="msg">Message:</label>
+        <textarea id="msg"></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Gio Cao</p>
+  </footer>
+</body>
+</html>
